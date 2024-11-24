@@ -1,0 +1,44 @@
+﻿<h4>Настройки (для применения изменений требуется перезапуск сервера)</h4><br><br>
+<form method="post">
+    <div class="form-group">
+        <label>Введите порт для web интерфейса</label>
+        <input class="form-control" name="port_web_interface" value={{ value_port_web_interface }}>
+    </div>
+    <br>
+    <div class="form-group">
+        <label>Введите порт для сервера</label>
+        <input class="form-control" name="port_update" value={{ value_port_server }}>
+    </div>
+    <br>
+    <div class="form-group">
+        <label>Введите путь для обновлений (в конце обязательно нужен слэш)</label>
+        <input class="form-control" name="path_update" value={{ value_path_update }}>
+    </div>
+    <br>
+    <div class="form-group">
+        <label>Введите адрес для базы данных MSSQL</label>
+        <input class="form-control" name="address_db" value={{ value_address_db }}>
+    </div>
+    <br>
+    <div class="form-group">
+        <label>Введите порт для базы данных MSSQL</label>
+        <input class="form-control" name="port_db" value={{ value_port_db }}>
+    </div>
+    <br>
+    <div class="form-group">
+        <label>Введите имя базы для базы данных MSSQL</label>
+        <input class="form-control" name="base_db" value={{ value_base_db }}>
+    </div>
+    <br>
+    <div class="form-group">
+        <label>Введите пользователя для базы данных MSSQL</label>
+        <input class="form-control" name="user_db" value={{ value_user_db }}>
+    </div>
+    <br>
+    <div class="form-group">
+        <label>Введите пароль для базы данных MSSQL</label>
+        <input class="form-control" type="password" name="pass_db" value={{ value_pass_db }}>
+    </div>
+    <br>
+    <button type="submit" name="submit" class="btn btn-primary">Сохранить</button>
+</form>
